@@ -72,6 +72,9 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 50px;
 }
 
+#soon {
+  margin-top: -50px;
+}
 
 @media (max-width: 768px) {
   #myRow {
@@ -88,14 +91,14 @@ h1,h2,h3,h4,h5,h6 {
   color: white;
   }
 
-/*  #scrolldown {
+  #scrolldown {
     display: inline-block;
     vertical-align: bottom;
     width: 40px;
     height: 50px;
     margin-top: 50px;
-    margin-top: 26vh;
-  }*/
+    margin-top: 5vh;
+  }
 
 }
 
