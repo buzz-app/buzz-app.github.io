@@ -10,7 +10,7 @@ p.small {
 }
 a,
 a:hover,a:focus,a:active,a.active {
-  color: #FD8586;
+  color: #FD9E40;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,13 +20,13 @@ h1,h2,h3,h4,h5,h6 {
 
 
 #contact {
-  /*color: #FD8586;*/
+  /*color: #FD9E40;*/
   font-size: 2.5em;
   font-weight: 700;
 }
 
 #mail {
-  color: #FD8586;
+  color: #FD9E40;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -37,11 +37,13 @@ h1,h2,h3,h4,h5,h6 {
   min-width: 100vw;
   text-align: center;
 
-  background: #FD8586;
-  background: -moz-linear-gradient(45deg, #FD8586 19%, #FD8586 48%, #f58dbe 65%, #f498c4 79%, #f2abcc 94%);
-  background: -webkit-linear-gradient(45deg, #FD8586 19%,#FD8586 48%,#f58dbe 65%,#f498c4 79%,#f2abcc 94%);
-  background: linear-gradient(45deg, #FD8586 19%,#FD8586 48%,#f58dbe 65%,#f498c4 79%,#f2abcc 94%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FD8586', endColorstr='#f2abcc',GradientType=1 );
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9f32+0,ff9f32+39,fff200+100 */
+  background: #ff9f32; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ff9f32 0%, #ff9f32 39%, #fff200 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ff9f32 0%,#ff9f32 39%,#fff200 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ff9f32 0%,#ff9f32 39%,#fff200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9f32', endColorstr='#fff200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: white;
 }
 
@@ -83,11 +85,12 @@ h1,h2,h3,h4,h5,h6 {
   max-width: 100vw;
   text-align: center;
 
-  background: #FD8586;
-  background: -moz-linear-gradient(45deg, #FD8586 19%, #FD8586 48%, #f58dbe 65%, #f498c4 79%, #f2abcc 94%);
-  background: -webkit-linear-gradient(45deg, #FD8586 19%,#FD8586 48%,#f58dbe 65%,#f498c4 79%,#f2abcc 94%);
-  background: linear-gradient(45deg, #FD8586 19%,#FD8586 48%,#f58dbe 65%,#f498c4 79%,#f2abcc 94%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FD8586', endColorstr='#f2abcc',GradientType=1 );
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9f32+0,ff9f32+39,fff200+100 */
+  background: #ff9f32; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ff9f32 0%, #ff9f32 39%, #fff200 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ff9f32 0%,#ff9f32 39%,#fff200 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ff9f32 0%,#ff9f32 39%,#fff200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9f32', endColorstr='#fff200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: white;
   }
 
@@ -103,7 +106,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 section.success {
-  background: #FD8586;
+  background: #FD9E40;
   color: white;
 }
 
@@ -174,7 +177,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #FD8586;
+  color: #FD9E40;
   background: white;
   border: solid 2px white;
 }
@@ -183,7 +186,7 @@ footer .footer-below {
 .btn-outline:focus .st0,
 .btn-outline:active .st0,
 .btn-outline.active .st0 {
-  fill: #FD8586;
+  fill: #FD9E40;
 }
 
 .btn-primary {
@@ -230,8 +233,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #FD8586;
-  border-color: #FD8586;
+  background-color: #FD9E40;
+  border-color: #FD9E40;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -263,11 +266,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #FD8586;
-  border-color: #FD8586;
+  background-color: #FD9E40;
+  border-color: #FD9E40;
 }
 .btn-success .badge {
-  color: #FD8586;
+  color: #FD9E40;
   background-color: white;
 }
 .btn-social {
