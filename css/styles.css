@@ -47,14 +47,6 @@ h1,h2,h3,h4,h5,h6 {
   color: white;
 }
 
-#logo {
-  display: inline-block;
-  height: 50vh;
-  width: 60vw;
-  /*top: 50% !important;*/
-  /*left: 50% !important;*/
-}
-
 #scrolldown {
   display: inline-block;
   /*vertical-align: bottom;*/
@@ -284,20 +276,16 @@ fieldset[disabled] .btn-success.active {
   line-height: 45px;
 }
 
-
 #logo {
+  display: inline-block;
+  height: 50vh;
+  width: 60vw;
   animation: centerme 2s;
   -webkit-animation: centerme 2s;
   position: relative;
   /*z-index: 999;  To ensure that box is always on the top */
   animation-fill-mode: forwards; /* So that box doesn't move back to default place*/
   -webkit-animation-fill-mode: forwards;
-}
-
-@keyframes centerme {
-    /*0%   {left: 50%; top: 50%;}*/
-    /*100%  {left: 0%;top: 0%;}*/
-    /* Left and Top are 50% with margins which are half of width and height */
 }
 
 @-webkit-keyframes centerme {
