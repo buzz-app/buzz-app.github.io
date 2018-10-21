@@ -1,20 +1,20 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+
 p {
   font-size: 20px;
 }
+
 p.small {
   font-size: 16px;
 }
-a,
-a:hover,a:focus,a:active,a.active {
+
+a, a:hover, a:focus, a:active, a.active {
   color: #FD9E40;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*text-transform: uppercase;*/
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
@@ -230,7 +230,7 @@ fieldset[disabled] .btn-success.active {
     to     { margin-left: -60vw;  }
 }
 
-#scrolldown {
+#scroll-down-arrow {
   display: inline-block;
   /*vertical-align: bottom;*/
   width: 40px;
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-success.active {
   margin-top: 10vh;
 }
 
-#scrollup {
+#scroll-up-arrow {
   display: inline-block;
   vertical-align: bottom;
   left: 50% !important;
@@ -293,7 +293,7 @@ footer .footer-below {
   color: white;
   }
 
-  #scrolldown {
+  #scroll-down-arrow {
     display: inline-block;
     vertical-align: bottom;
     width: 40px;
